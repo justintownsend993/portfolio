@@ -1,0 +1,44 @@
+.img-hover:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+
+.font{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.batman{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Pacifico';
+}
+
+.paragraph{
+    text-align: left;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.white{
+    text-align: left;
+    color: white;
+}
+
+.icons{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Pacifico';
+    font-size: 30px;
+}
+
+a{
+    color: white;
+}

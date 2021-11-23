@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App</title>
+    <style>
+    body{
+    background-color: rgb(42, 57, 66);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+a{
+  text-align: left;
+  color: white;
+}
+    </style>
+</head>
+<body>
+  <nav>
+    <h5><a href="index.html">Home</a></h5>
+  </nav>
+    <header>Welcome!</header>
+    
+    <div id="root"></div>
+
+    <script> 
+    alert("Welcome to this web app! PLease follow the instructions to play this game as intended!");
+  if(name != null){
+    const name = prompt("Please enter your name.");
+    const question = prompt("Please enter a noun.");
+    const another_question = prompt("Please enter a verb");
+    document.getElementById("root").innerHTML = name + " was on a walk, when all of a sudden a " + question + " jumped out! and " + another_question + " " + name + ' over with a shopping cart! "Ow", said ' + name + ".";
+  }
+
+</script>
+</body>
+</html>

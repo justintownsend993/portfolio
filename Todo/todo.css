@@ -1,0 +1,18 @@
+ body {
+     text-align: left;
+     color: white;
+     background-color: #333;
+ }
+
+ #app {
+     background-color: #333;
+     color: white;
+ }
+
+ .done {
+     text-decoration: line-through;
+ }
+
+ li {
+     font-size: large;
+ }
